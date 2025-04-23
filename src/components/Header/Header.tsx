@@ -1,5 +1,5 @@
 import { assets } from '../../assets/assets.ts';
-import React, {FC} from 'react';
+import  {FC} from 'react';
 import './Header.css';
 
 const Header:FC = () => {
