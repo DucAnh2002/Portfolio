@@ -1,0 +1,96 @@
+.skills-container {
+    
+    
+    padding: 10px;
+    max-width: 1100px;
+    margin: 30px auto;
+    border-radius: 8px;
+  }
+  
+  .skills-container h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2rem;
+  }
+  
+  .skills-columns {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: space-between;
+  }
+  
+  .skills-left {
+    flex: 1;
+    min-width: 300px;
+  }
+  
+  .skills-right {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .skill-item {
+    margin-bottom: 20px;
+  }
+  
+  .skill-header {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 600;
+    margin-bottom: 5px;
+  }
+  
+  .progress-bar {
+    background: #444;
+    height: 10px;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .progress-fill {
+    height: 100%;
+    background: linear-gradient(90deg, #00f0ff, #00c3ff);
+    border-radius: 5px;
+    transition: width 1s ease-in-out;
+  }
+  
+  /* Circle Chart */
+  .circle-skill {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .circular-chart {
+    width: 100px;
+    height: 100px;
+    transform: rotate(-90deg);
+  }
+  
+  .circle-bg {
+    fill: none;
+    stroke: #eee;
+    stroke-width: 3.8;
+  }
+  
+  .circle {
+    fill: none;
+    stroke: #211a7e;
+    stroke-width: 3.8;
+    stroke-linecap: round;
+    transition: stroke-dasharray 1s ease-in-out;
+  }
+  
+  .percentage {
+    fill: #642121;
+    font-size: 0.5em;
+    text-anchor: middle;
+    dominant-baseline: middle;
+    transform: rotate(90deg);
+  }
+  

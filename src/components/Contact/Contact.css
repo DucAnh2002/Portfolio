@@ -1,0 +1,53 @@
+.contact-section {
+    text-align: center;
+    padding: 60px 20px;
+  }
+  
+  .contact-section h2 {
+    font-size: 2rem;
+    margin-bottom: 40px;
+  }
+  
+  .contact-boxes {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    justify-items: center;
+  }
+  
+  .contact-card {
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+    padding: 30px 20px;
+    width: 100%;
+    max-width: 300px;
+    text-align: center;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+  }
+  
+  .contact-card:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    transform: translateY(-5px);
+  }
+  
+  .contact-card h3 {
+    margin: 10px 0;
+    font-weight: 600;
+  }
+  
+  .contact-card p {
+    color: white;
+  }
+  .contact-card p:hover {
+    color: #0072b1;
+  }
+.contact-card a {
+  color: white;
+  text-decoration: none;
+}
+.contact-card a:hover {
+  color: #0072b1; /* màu xanh LinkedIn */
+  text-decoration: underline;
+}
